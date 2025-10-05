@@ -1,0 +1,535 @@
+{
+  "mod_elements": [
+    {
+      "name": "DupePainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupe_painting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Crucifix",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "crucifix",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/item/crucifix.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/item/CrucifixItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Doorscraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorscraft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Seek",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seek",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/client/renderer/SeekRenderer.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/seek_spawn_egg.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/entity/SeekEntity.java",
+          "src/main/resources/data/doorscraft_legacy/forge/biome_modifier/seek_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Figure",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "figure",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/item/figure_spawn_egg.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/entity/FigureEntity.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/client/renderer/FigureRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Dupe",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dupe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doorscraft_legacy/damage_type/dupe.json"
+        ]
+      }
+    },
+    {
+      "name": "ClosetDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closet_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_bottom_right_open.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_top_left.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_top_right.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/block/ClosetDoorBlock.java",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_bottom_right.json",
+          "src/main/resources/assets/doorscraft_legacy/models/item/closet_door.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_bottom_left.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_top_left_open.json",
+          "src/main/resources/data/doorscraft_legacy/loot_tables/blocks/closet_door.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_top_right_open.json",
+          "src/main/resources/assets/doorscraft_legacy/blockstates/closet_door.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_door_bottom_left_open.json"
+        ]
+      }
+    },
+    {
+      "name": "ClosetSide",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "closet_top",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_top.json",
+          "src/main/resources/assets/doorscraft_legacy/models/item/closet_top.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_top_top.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/closet_top_full.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/block/ClosetSideBlock.java",
+          "src/main/resources/assets/doorscraft_legacy/blockstates/closet_top.json",
+          "src/main/resources/data/doorscraft_legacy/loot_tables/blocks/closet_top.json"
+        ]
+      }
+    },
+    {
+      "name": "Rush",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/client/renderer/RushRenderer.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/entity/RushEntity.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/rush_spawn_egg.json",
+          "src/main/resources/data/doorscraft_legacy/forge/biome_modifier/rush_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Ambush",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ambush",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/entity/AmbushEntity.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/client/renderer/AmbushRenderer.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/ambush_spawn_egg.json",
+          "src/main/resources/data/doorscraft_legacy/forge/biome_modifier/ambush_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Doorscraft1",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doorscraft_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SkeletonKey",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_key",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/item/skeleton_key.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/item/SkeletonKeyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Jeff",
+      "type": "villagerprofession",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/textures/entity/villager/profession/jeff.png.mcmeta"
+        ]
+      }
+    },
+    {
+      "name": "JeffTrades",
+      "type": "villagertrade",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeff_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "SkeletonLock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_lock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/block/skeleton_lock.json",
+          "src/main/resources/assets/doorscraft_legacy/blockstates/skeleton_lock.json",
+          "src/main/resources/data/doorscraft_legacy/loot_tables/blocks/skeleton_lock.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/block/SkeletonLockBlock.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/skeleton_lock.json"
+        ]
+      }
+    },
+    {
+      "name": "WheresTheLock",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wheres_the_lock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doorscraft_legacy/advancements/wheres_the_lock.json"
+        ]
+      }
+    },
+    {
+      "name": "Knob",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knob",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/models/item/knob.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/item/KnobItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ByThePowerOfGuidingLightIBanishThee",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "by_the_power_of_guiding_light_i_banish_thee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/doorscraft_legacy/advancements/by_the_power_of_guiding_light_i_banish_thee.json"
+        ]
+      }
+    },
+    {
+      "name": "DoorRoom",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "door_room",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/blockstates/door_room.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/block/DoorRoomBlock.java",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_top_left_open.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_bottom_left_open.json",
+          "src/main/resources/assets/doorscraft_legacy/models/item/door_room.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_top_right_open.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_bottom_left.json",
+          "src/main/resources/data/doorscraft_legacy/loot_tables/blocks/door_room.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_bottom_right.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_top_right.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_bottom_right_open.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/door_room_top_left.json"
+        ]
+      }
+    },
+    {
+      "name": "HotelBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hotel_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/block/HotelBlockBlock.java",
+          "src/main/resources/data/doorscraft_legacy/loot_tables/blocks/hotel_block.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/hotel_block.json",
+          "src/main/resources/assets/doorscraft_legacy/models/item/hotel_block.json",
+          "src/main/resources/assets/doorscraft_legacy/blockstates/hotel_block.json"
+        ]
+      }
+    },
+    {
+      "name": "BandageRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/procedures/BandageRightclickedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "Bandage",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/item/BandageItem.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/bandage.json"
+        ]
+      }
+    },
+    {
+      "name": "Rift",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rift",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/block/RiftBlock.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/rift.json",
+          "src/main/resources/data/doorscraft_legacy/loot_tables/blocks/rift.json",
+          "src/main/resources/assets/doorscraft_legacy/blockstates/rift.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/rift.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/block/entity/RiftBlockEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "RiftStorage",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rift_storage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/client/gui/RiftStorageScreen.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/world/inventory/RiftStorageMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "SeekGoop",
+      "type": "fluid",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seek_goop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/doorscraft_legacy/blockstates/seek_goop.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/block/SeekGoopBlock.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/fluid/types/SeekGoopFluidType.java",
+          "src/main/resources/assets/doorscraft_legacy/models/item/seek_goop_bucket.json",
+          "src/main/resources/assets/doorscraft_legacy/models/block/seek_goop.json",
+          "src/main/java/net/mcreator/doorscraftlegacy/fluid/SeekGoopFluid.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/item/SeekGoopItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drawer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/doorscraftlegacy/client/gui/TestScreen.java",
+          "src/main/java/net/mcreator/doorscraftlegacy/world/inventory/TestMenu.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "dawn_of_the_doors",
+      "files": [
+        "1201509_doors-ost---dawn-of-the-do"
+      ],
+      "category": "ambient",
+      "subtitle": "doorscraft"
+    },
+    {
+      "name": "here_i_come",
+      "files": [
+        "1201345_doors-ost---here-i-come"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "unhinged",
+      "files": [
+        "1229976_unhinged-retro-remix"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "jeffs-jingle",
+      "files": [
+        "doors-ost-jeffs-jingle-jeffs-shop-music-roblox-doors-made-with-voicemod"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:SkeletonKey"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SkeletonLock"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:SkeletonLock"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:ClosetSide"
+    ],
+    "ITEMS:minecraft:swords": [],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:SeekGoop"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:Doorscraft": [
+      "Seek",
+      "Figure",
+      "Ambush",
+      "Rush",
+      "Crucifix",
+      "SkeletonKey",
+      "Knob",
+      "SeekGoop"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "painting.doorscraft_legacy.dupe_painting.title": "Dupe Painting",
+      "painting.doorscraft_legacy.dupe_painting.author": "Doorscraft Legacy",
+      "item.doorscraft_legacy.crucifix": "Crucifix",
+      "item_group.doorscraft_legacy.doorscraft": "Doorscraft Items",
+      "subtitles.dawn_of_the_doors": "doorscraft",
+      "subtitles.here_i_come": "",
+      "entity.doorscraft_legacy.seek": "Seek",
+      "item.doorscraft_legacy.seek_spawn_egg": "Seek Spawn Egg",
+      "entity.doorscraft_legacy.figure": "Figure",
+      "item.doorscraft_legacy.figure_spawn_egg": "Figure Spawn Egg",
+      "subtitles.unhinged": "",
+      "death.attack.dupe.player": "%1$s was sent to the shadowlands by Dupe",
+      "death.attack.dupe.item": "%1$s was forced to be Dupe\u0027s host",
+      "death.attack.dupe": "%1$s\u0027s soul was taken by Dupe",
+      "block.doorscraft_legacy.closet_door": "Closet Door",
+      "entity.doorscraft_legacy.rush": "Rush",
+      "item.doorscraft_legacy.rush_spawn_egg": "Rush Spawn Egg",
+      "entity.doorscraft_legacy.ambush": "Ambush",
+      "item.doorscraft_legacy.ambush_spawn_egg": "Ambush Spawn Egg",
+      "item_group.doorscraft_legacy.doorscraft_1": "Doorscraft Blocks",
+      "subtitles.jeffs-jingle": "",
+      "item.doorscraft_legacy.skeleton_key": "Skeleton Key",
+      "entity.minecraft.villager.doorscraft_legacy.jeff": "Jeff",
+      "block.doorscraft_legacy.skeleton_lock": "Skeleton Lock",
+      "advancements.wheres_the_lock.title": "Where\u0027s The Lock?",
+      "advancements.wheres_the_lock.descr": "Obtain the Skeleton Key",
+      "item.doorscraft_legacy.knob": "Knob",
+      "advancements.by_the_power_of_guiding_light_i_banish_thee.descr": "Obtain a Crucifix",
+      "advancements.by_the_power_of_guiding_light_i_banish_thee.title": "By The Power Of Guiding Light, I Banish Thee",
+      "block.doorscraft_legacy.closet_top": "Closet Top",
+      "block.doorscraft_legacy.door_room": "Door Room",
+      "block.doorscraft_legacy.hotel_block": "Hotel Block",
+      "item.doorscraft_legacy.bandage": "Bandage",
+      "block.doorscraft_legacy.rift": "Rift",
+      "gui.doorscraft_legacy.rift_storage.button_close": "Close",
+      "gui.doorscraft_legacy.rift_storage.label_rift": "Rift",
+      "fluid_type.doorscraft_legacy.seek_goop": "Seek Goop",
+      "block.doorscraft_legacy.seek_goop": "Seek Goop",
+      "fluid.doorscraft_legacy.seek_goop": "Seek Goop",
+      "item.doorscraft_legacy.seek_goop_bucket": "Bucket of Seek Goop",
+      "gui.doorscraft_legacy.drawer.label_drawer": "Drawer"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/doorscraftlegacy/DoorscraftLegacyMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModTabs.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModSounds.java",
+      "src/main/resources/assets/doorscraft_legacy/sounds.json",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModFluids.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModFluidTypes.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModMenus.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModScreens.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModPaintings.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModVillagerProfessions.java",
+      "src/main/resources/data/minecraft/tags/point_of_interest_type/acquirable_job_site.json",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModTrades.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModBlocks.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModBlockEntities.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModItems.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModEntities.java",
+      "src/main/java/net/mcreator/doorscraftlegacy/init/DoorscraftLegacyModEntityRenderers.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "doorscraft_legacy",
+    "modName": "Doorscraft Legacy",
+    "version": "2.1.1",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "modPicture": "953e4c0bda01b778c3fc6f366fec39ba",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.doorscraftlegacy"
+  },
+  "mcreatorVersion": 202500228610
+}

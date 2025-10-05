@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "doorscraft_legacy:blocks/closet_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "doorscraft_legacy:closet_door",
+          "conditions": [
+            {
+              "block": "doorscraft_legacy:closet_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

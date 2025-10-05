@@ -1,0 +1,12 @@
+{
+  "_fv": 79,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.0,
+    "scaling": "never",
+    "effects": "thorns",
+    "normalDeathMessage": "%1$s's soul was taken by Dupe",
+    "itemDeathMessage": "%1$s was forced to be Dupe's host",
+    "playerDeathMessage": "%1$s was sent to the shadowlands by Dupe"
+  }
+}

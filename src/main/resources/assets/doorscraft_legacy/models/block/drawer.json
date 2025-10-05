@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doorscraft_legacy:block/drawer_side",
+    "up": "doorscraft_legacy:block/drawer_side",
+    "north": "doorscraft_legacy:block/drawer_front",
+    "east": "doorscraft_legacy:block/drawer_side",
+    "south": "doorscraft_legacy:block/drawer_side",
+    "west": "doorscraft_legacy:block/drawer_side",
+    "particle": "doorscraft_legacy:block/drawer_side"
+  },
+  "render_type": "solid"
+}

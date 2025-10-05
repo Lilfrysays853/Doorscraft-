@@ -1,0 +1,16 @@
+{
+  "_fv": 79,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Jeff",
+    "pointOfInterest": {
+      "value": "Blocks.WARPED_HYPHAE"
+    },
+    "actionSound": {
+      "value": "CUSTOM:jeffs-jingle"
+    },
+    "hat": "Full",
+    "professionTextureFile": "2025_08_05_soul-fire-in-the-dark-v2--slim--23449587.png",
+    "zombifiedProfessionTextureFile": "2024_05_04_--seek---22512034.png"
+  }
+}

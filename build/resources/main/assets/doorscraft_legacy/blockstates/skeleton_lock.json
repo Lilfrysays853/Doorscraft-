@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "doorscraft_legacy:block/skeleton_lock"
+    },
+    "facing=east": {
+      "model": "doorscraft_legacy:block/skeleton_lock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "doorscraft_legacy:block/skeleton_lock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "doorscraft_legacy:block/skeleton_lock",
+      "y": 270
+    }
+  }
+}

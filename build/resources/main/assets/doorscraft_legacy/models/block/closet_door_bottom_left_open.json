@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_bottom_left_open",
+  "textures": {
+    "particle": "minecraft:block/composter_bottom",
+    "bottom": "minecraft:block/composter_bottom",
+    "top": "minecraft:block/composter_bottom"
+  },
+  "render_type": "solid"
+}

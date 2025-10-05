@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "doorscraft_legacy:block/skeleton_lock_side",
+    "up": "doorscraft_legacy:block/skeleton_lock_side",
+    "north": "doorscraft_legacy:block/skeleton_lock_front",
+    "east": "doorscraft_legacy:block/skeleton_lock_side",
+    "south": "doorscraft_legacy:block/skeleton_lock_side",
+    "west": "doorscraft_legacy:block/skeleton_lock_side",
+    "particle": "doorscraft_legacy:block/skeleton_lock_side"
+  },
+  "render_type": "solid"
+}

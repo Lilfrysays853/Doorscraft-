@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_right",
+  "textures": {
+    "particle": "doorscraft_legacy:block/door_room",
+    "bottom": "doorscraft_legacy:block/door_room",
+    "top": "doorscraft_legacy:block/door_room"
+  },
+  "render_type": "solid"
+}

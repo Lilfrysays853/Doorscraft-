@@ -1,0 +1,58 @@
+{
+  "_fv": 79,
+  "_type": "villagertrade",
+  "definition": {
+    "tradeEntries": [
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Jeff"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.GOLD_NUGGET"
+            },
+            "countPrice1": 15,
+            "price2": {
+              "value": "CUSTOM:Knob"
+            },
+            "countPrice2": 52,
+            "offer": {
+              "value": "CUSTOM:Crucifix"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 0,
+            "priceMultiplier": 0.0
+          }
+        ]
+      },
+      {
+        "villagerProfession": {
+          "value": "CUSTOM:Jeff"
+        },
+        "entries": [
+          {
+            "price1": {
+              "value": "Items.GOLD_NUGGET"
+            },
+            "countPrice1": 7,
+            "price2": {
+              "value": "CUSTOM:Knob"
+            },
+            "countPrice2": 52,
+            "offer": {
+              "value": "CUSTOM:SkeletonKey"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 1,
+            "xp": 0,
+            "priceMultiplier": 0.0
+          }
+        ]
+      }
+    ]
+  }
+}

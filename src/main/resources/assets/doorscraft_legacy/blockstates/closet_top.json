@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "doorscraft_legacy:block/closet_top"
+    },
+    "type=top": {
+      "model": "doorscraft_legacy:block/closet_top_top"
+    },
+    "type=double": {
+      "model": "doorscraft_legacy:block/closet_top_full"
+    }
+  }
+}

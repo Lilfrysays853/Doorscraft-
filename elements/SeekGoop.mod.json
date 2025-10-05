@@ -1,0 +1,60 @@
+{
+  "_fv": 79,
+  "_type": "fluid",
+  "definition": {
+    "name": "Seek Goop",
+    "bucketName": "Bucket of Seek Goop",
+    "textureStill": "minecraft:black_concrete",
+    "textureFlowing": "minecraft:black_concrete",
+    "textureRenderOverlay": "",
+    "hasFog": true,
+    "fogColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "fogStartDistance": {
+      "fixedValue": 0.01
+    },
+    "fogEndDistance": {
+      "fixedValue": 1.0
+    },
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 5,
+    "levelDecrease": 7,
+    "slopeFindDistance": 4,
+    "spawnParticles": true,
+    "dripParticle": {
+      "value": "REVERSE_PORTAL"
+    },
+    "flowStrength": 8.0,
+    "luminosity": 0,
+    "density": 1000,
+    "viscosity": 1100,
+    "temperature": 300,
+    "type": "LAVA",
+    "generateBucket": true,
+    "textureBucket": "",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Doorscraft"
+      }
+    ],
+    "emptySound": {
+      "value": "CUSTOM:here_i_come"
+    },
+    "rarity": "UNCOMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "resistance": 200.0,
+    "luminance": 0,
+    "lightOpacity": 1,
+    "emissiveRendering": false,
+    "tickRate": 0,
+    "ignitedByLava": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "BLACK"
+  }
+}

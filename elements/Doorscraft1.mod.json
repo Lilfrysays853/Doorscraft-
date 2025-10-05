@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Doorscraft Blocks",
+    "icon": {
+      "value": "CUSTOM:SkeletonLock"
+    },
+    "showSearch": false
+  }
+}

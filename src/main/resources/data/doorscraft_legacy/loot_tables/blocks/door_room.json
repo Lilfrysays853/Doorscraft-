@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "doorscraft_legacy:blocks/door_room",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "doorscraft_legacy:door_room",
+          "conditions": [
+            {
+              "block": "doorscraft_legacy:door_room",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

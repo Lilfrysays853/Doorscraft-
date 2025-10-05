@@ -1,0 +1,35 @@
+{
+  "dawn_of_the_doors": {
+    "subtitle": "subtitles.dawn_of_the_doors",
+    "sounds": [
+      {
+        "name": "doorscraft_legacy:1201509_doors-ost---dawn-of-the-do",
+        "stream": false
+      }
+    ]
+  },
+  "here_i_come": {
+    "sounds": [
+      {
+        "name": "doorscraft_legacy:1201345_doors-ost---here-i-come",
+        "stream": false
+      }
+    ]
+  },
+  "unhinged": {
+    "sounds": [
+      {
+        "name": "doorscraft_legacy:1229976_unhinged-retro-remix",
+        "stream": false
+      }
+    ]
+  },
+  "jeffs-jingle": {
+    "sounds": [
+      {
+        "name": "doorscraft_legacy:doors-ost-jeffs-jingle-jeffs-shop-music-roblox-doors-made-with-voicemod",
+        "stream": false
+      }
+    ]
+  }
+}

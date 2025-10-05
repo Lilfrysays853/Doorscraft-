@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "doorscraft_legacy:item/knob"
+  }
+}

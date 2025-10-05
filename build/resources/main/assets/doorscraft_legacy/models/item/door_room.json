@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "doorscraft_legacy:block/door_room"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "doorscraft_legacy:item/skeleton_key"
+  }
+}
